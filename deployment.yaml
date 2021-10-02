@@ -13,7 +13,7 @@ spec:
         app: web
     spec:
       containers:
-      - name: node
+      - name: web
         image: cudo80/conversao-temperatura:v1
         ports:
           - containerPort: 8080
